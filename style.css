@@ -258,7 +258,61 @@
     margin-left: 10vh;
     justify-content: flex-end;
 }
+#words{
+    color: red;
+    text-decoration: underline;
+}
+#word{
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+}
+.feedback{
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    margin-bottom: 200px;
+    
+}
+#feedback-one{
+    border: solid palevioletred 1px;
+    height: 500px;
+    width: 600px;
+    padding: 70px;
+    border-radius: 20px;
+    font-size: 170%;
 
+}
+.feedback-two{
+    
+    height: 500px;
+    width: 600px;
+    font-size: 170%;
+    padding-top: 70px;
+}
+#feedback-one img{
+    width: 300px;
+    
+
+}
+.feedback-two img{
+    width: 300px;
+    
+
+}
+.download{
+    display: flex;
+
+    gap: 300px;
+}
+#download-image{
+    margin-left: 300px;
+}
+#download-two{
+    font-size: 200%;
+    margin-top: 100px;
+
+}
 .logos-heading {}
 
 .icons {}
