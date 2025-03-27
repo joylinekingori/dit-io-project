@@ -303,18 +303,29 @@
 .download{
     display: flex;
 
-    gap: 300px;
+    gap: 700px;
 }
 #download-image{
-    margin-left: 300px;
+    margin-left: 200px;
+    width: 300px;
+    height: 400px;
 }
 #download-two{
     font-size: 200%;
     margin-top: 100px;
 
 }
-.logos-heading {}
+.footer{
+    background-color: navy;
+    display: flex;
+    color: whitesmoke;
+    margin-top: 300px;
+    justify-content: center;
+    height: 300px;
+    gap: 200px;
+    font-size: 150%;
+    
+}
 
-.icons {}
 
 #google-icon {}
