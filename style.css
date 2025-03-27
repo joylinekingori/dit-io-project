@@ -1,5 +1,19 @@
+@font-face {
+    font-family: agba;
+    src: url(./fonts/wid.ttf);
+}
+@font-face {
+    font-family: wid;
+    src: url(./fonts/wid\ \(1\).ttf);
+}
+@font-face {
+    font-family: domine;
+    src: url(./fonts/Domine-VariableFont_wght.ttf);
+}
+
+
 .main-container {
-    margin-left: 20vh;
+    margin-left: 10vh;
     margin-right: 20vh;
     margin-top: 20vh;
     width: 100%
@@ -13,16 +27,17 @@
 .navigation-menu {
     text-decoration: none;
     justify-content: center;
-    font-size: 2vh;
-    margin-left: 3vh;
+    font-size: 3vh;
+    margin-left: 20vh;
     height: 200px;
 }
 
 #home {
     text-decoration: none;
     padding: 3vh;
-    color: grey;
+    color: black;
     margin-left: 4vh;
+    justify-content: ;
 }
 
 #log-in {
@@ -30,8 +45,15 @@
     font-size: 1.7vh;
     border: none;
     border-radius: 2.3vh;
+    font-size: 130%;
 }
-
+#sign-up {
+    padding: 2vh;
+    font-size: 1.7vh;
+    border: none;
+    border-radius: 2.3vh;
+    background-color: palevioletred;
+}
 #red-title {
     color: red;
 }
@@ -43,7 +65,8 @@
 
 }
 .deski-left h1{
-    font-size: 300%;
+    font-size: 400%;
+    font-family: agba;
 }
 .deski-left p{
     font-size: 120%;
@@ -51,6 +74,7 @@
 
 
 .deski-buttons {
+    ;
 
 }
 
@@ -59,7 +83,9 @@
     padding: 20px;
     border-radius: 20px;
     color: antiquewhite;
-    font-size: 20;
+    font-size: 20px;
+    width: 
+    height: ;
 }
 
 #play-store {
@@ -68,32 +94,153 @@
     border-radius: 20px;
        font-size: 20px;
        padding-right: 10px;
+       
 }
 .logos-heading{
     text-align: center;
     height: 100px;
 }
+.icons{
+    gap: ;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
 #microsoft-icon{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
 #trello-icon{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
+    padding-top: 50px;
     
 }
 #google-icon{
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     
 }
-#dropbox-icon{
-    width: 120px;
-    height: 120px;
+
+#social_icons{
+    width: 200px;
+    height: 150px;
     
 }
     
+#slack-icon{
+    width: 100px;
+    height: 100px;
     
+}
+#product-red{
+    color: red;
+}
+.heading-sevices{
+    justify-content: center;
+    font-size: 150%;
+    display: flex;
+    height: 200px;
+}
+.dit-services{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    height: 
+
+}
+.interface-icon{
+    width: 50%;
+    height:40px;
+}
+    
+.transfers-icon{
+    width: 50%;
+    height:40px;
+}
+    
+.support-icon{
+    width: 50%;
+    height:40px;
+}
+.dit-interface{
+    text-align: center;
+    font-size: 150%;
+    border: solid palevioletred 1px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.dit-transfers{
+    text-align: center;
+    font-size: 150%;
+
+}
+.dit-support{
+    text-align: center;
+    font-size: 150%;
+}
+.dit-statistics {
+    display: flex;
+    gap: 200px;
+}
+.statistics-one{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 140%;
+    font-family: domine;
+}
+.statistics-two{
+    margin-top: 300px;
+    width: 700px;
+    height: 800px;
+    transform: rotate(10deg);
+    
+}
+#dit-numbers{
+    color: red;
+    text-decoration: underline;
+
+}
+#dit-users{
+    display: flex;
+    gap: 100px;
+}
+.helping{
+    justify-content: center;
+    display: flex;
+    font-family: domine;
+    font-size: 130%;
+    height: 300px;
+
+}
+#arrow{
+    margin-left: 400px;
+}
+.settings-one{
+    font-size: 130%;
+}
+.settings{
+    margin-left: 200px;
+    display: flex;
+}
+.settings-two{
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+    transform: rotate(13deg);
+    margin-top: 50px;
+}
+.arrow-two{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    overflow: visible;
+}
+#customer{
+    color: red;
+    text-decoration: underline;
+}
 
 
 #playstore #sign-up {
@@ -105,10 +252,7 @@
     color: white;
 }
 
-#log-in {
-    background-color: palevioletred;
 
-}
 
 .buttons {
     margin-left: 10vh;
