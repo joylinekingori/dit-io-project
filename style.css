@@ -320,12 +320,28 @@
     display: flex;
     color: whitesmoke;
     margin-top: 300px;
-    justify-content: center;
     height: 300px;
-    gap: 200px;
-    font-size: 150%;
+    gap: 0px;
+    font-size: 130%;
+    justify-content: space-around;
     
+
+}
+.footer-icons{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.copyright{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    
+
+
 }
 
 
-#google-icon {}
+
+
