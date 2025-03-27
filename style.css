@@ -1,0 +1,122 @@
+.main-container {
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 20vh;
+    width: 100%
+}
+
+.navigation-bar {
+    display: flex;
+    gap:
+}
+
+.navigation-menu {
+    text-decoration: none;
+    justify-content: center;
+    font-size: 2vh;
+    margin-left: 3vh;
+    height: 200px;
+}
+
+#home {
+    text-decoration: none;
+    padding: 3vh;
+    color: grey;
+    margin-left: 4vh;
+}
+
+#log-in {
+    padding: 2vh;
+    font-size: 1.7vh;
+    border: none;
+    border-radius: 2.3vh;
+}
+
+#red-title {
+    color: red;
+}
+
+.deski {}
+
+.deski-left {
+    margin-left: 20vh;
+
+}
+.deski-left h1{
+    font-size: 300%;
+}
+.deski-left p{
+    font-size: 120%;
+}
+
+
+.deski-buttons {
+
+}
+
+#app-store {
+    background-color:navy;
+    padding: 20px;
+    border-radius: 20px;
+    color: antiquewhite;
+    font-size: 20;
+}
+
+#play-store {
+    
+    padding: 10px;
+    border-radius: 20px;
+       font-size: 20px;
+       padding-right: 10px;
+}
+.logos-heading{
+    text-align: center;
+    height: 100px;
+}
+#microsoft-icon{
+    width: 150px;
+    height: 150px;
+}
+#trello-icon{
+    width: 50px;
+    height: 50px;
+    
+}
+#google-icon{
+    width: 120px;
+    height: 120px;
+    
+}
+#dropbox-icon{
+    width: 120px;
+    height: 120px;
+    
+}
+    
+    
+
+
+#playstore #sign-up {
+    background-color: palevioletred;
+    padding: 2.2vh;
+    font-size: 1.7vh;
+    border: none;
+    border-radius: 2.3vh;
+    color: white;
+}
+
+#log-in {
+    background-color: palevioletred;
+
+}
+
+.buttons {
+    margin-left: 10vh;
+    justify-content: flex-end;
+}
+
+.logos-heading {}
+
+.icons {}
+
+#google-icon {}
